@@ -25,13 +25,87 @@
 
 .wrapper_abonnements {
   padding: 0px 40px;
+  padding-bottom: 40px;
 }
 
 .abonnements_offres_1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.abonnements_offres_2 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.abonnements_offres_3 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.abonnements_offres_4 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.abonnements_offres_5 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.abonnements_offres_6 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.abonnements_offres_7 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.abonnements_offres_8 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .abonnements_offres_description_label {
@@ -68,15 +142,6 @@
   position: relative;
 }
 
-.abonnements_offres_2 {
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-right: 20px;
-}
 
 .abonnements_offres_description_collecte_texte {
   padding: 20px 20px;
@@ -91,28 +156,30 @@
   background-color: #F6F6F6;
   border-radius: 46px;
   padding: 20px;
+  margin-top: 20px;
 }
 
 .abonnements_offres_entrainement_collecte {
   flex: 0 0 240px;
   text-align: center;
   background-color: #F6F6F6;
+  height: 120px;
+  line-height: 120px;
+}
+
+.abonnements_offres_entrainement_collecte > span {
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .abonnements_offres_performance_collecte {
   flex: 0 0 240px;
   text-align: center;
   background-color: #F6F6F6;
+  height: 120px;
+  line-height: 120px;
 }
 
-.abonnements_offres_3 {
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
 .abonnements_offres_description_collecte_details {
   flex: 0 0 40%;
@@ -123,7 +190,7 @@
 ul {
   list-style-type: none;
   font-size: 16px;
-  padding-left: 0px;
+  padding-left: 40px;
   margin-bottom: 0px;
 }
 
@@ -139,4 +206,141 @@ li {
 .fa-times {
  color: #E76976;
  text-align: center;
+}
+
+.abonnements_offres_entrainement_collecte_details {
+  flex: 0 0 240px;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+
+.abonnements_offres_entrainement_collecte_details > ul {
+  padding-left: 0px !important;
+}
+
+.abonnements_offres_performance_collecte_details {
+  flex: 0 0 240px;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+
+.abonnements_offres_performance_collecte_details > ul {
+  padding-left: 0px !important;
+}
+
+
+.abonnements_offres_entrainement_paiement_details {
+  flex: 0 0 240px;
+  text-align: center;
+  background-color: #F6F6F6;
+  height: 136px;
+}
+
+.abonnements_offres_entrainement_paiement_details > ul {
+  padding-left: 0px !important;
+}
+
+.abonnements_offres_performance_paiement_details {
+  flex: 0 0 240px;
+  text-align: center;
+  background-color: #F6F6F6;
+  height: 136px;
+}
+
+.abonnements_offres_performance_paiement_details > ul {
+  padding-left: 0px !important;
+}
+
+.abonnements_offres_entrainement_adherents_details {
+  flex: 0 0 240px;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+
+.abonnements_offres_entrainement_adherents_details > ul {
+  padding-left: 0px !important;
+}
+
+.abonnements_offres_performance_adherents_details {
+  flex: 0 0 240px;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+
+.abonnements_offres_performance_adherents_details > ul {
+  padding-left: 0px !important;
+}
+
+.abonnements_offres_description_cta {
+  flex: 0 0 40%;
+}
+
+.abonnements_offres_entrainement_cta {
+  flex: 0 0 240px;
+  height: 52px;
+  background-color: #FFFFFF;
+  text-align: center;
+  line-height: 52px;
+  font-size: 18px;
+  color: white;
+  border-radius: 4px;
+  color: #1A3350;
+  border: 1px solid #1A3350;
+}
+
+.abonnements_offres_performance_cta {
+  flex: 0 0 240px;
+  height: 52px;
+  background-color: #FD8400;
+  text-align: center;
+  line-height: 52px;
+  font-size: 18px;
+  color: white;
+  border-radius: 4px;
+}
+
+.abonnements_offres_performance_cta_button {
+  color: white;
+  text-decoration: none;
+}
+
+.abonnements_offres_performance_cta_button:visited {
+  color: white;
+}
+
+.abonnements_offres_performance_cta_button:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.wrapper_hesitation {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.cta_hesitation {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 20px 30px;
+  text-align: center;
+  line-height: 76px;
+  background-color: #C8EA8C;
+}
+
+.cta_hesitation:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #BBDD82;
+}
+
+.cta_hesitation:visited {
+  text-decoration: none;
+}
+
+.sub_title_hesitation {
+  font-size: 18px;
 }
