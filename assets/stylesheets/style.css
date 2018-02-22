@@ -1,0 +1,377 @@
+@media screen and (min-width: 775px)
+{
+  body {
+    background-color: #F5F5F5;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .wrapper_entrainement {
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    height: 200px;
+    margin: 30px auto;
+  }
+
+  .wrapper_performance {
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    margin: 30px auto;
+    padding-bottom: 30px;
+  }
+
+  .wrapper-card-performance {
+    background-color: #F5F5F5;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.13);
+    padding: 20px 30px;
+    padding-bottom: 80px;
+  }
+
+  .card-entrainement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.13);
+  }
+
+  .card-entrainement-image {
+    flex: 1 1 30%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card-entrainement-desc {
+    flex: 1 1 40%;
+  }
+
+  .card-entrainement-desc-niveau {
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  .card-entrainement-desc > h2 {
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  .card-entrainement-desc-descriptif {
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .card-entrainement-check {
+    flex: 1 1 30%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .star_performance {
+    width: 25px;
+  }
+
+  .card-performance {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card-performance-image {
+    flex: 1 1 30%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card-performance-desc {
+    flex: 1 1 40%;
+  }
+
+  .card-performance-desc-niveau {
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  .card-performance-desc > h2 {
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  .card-performance-desc-descriptif {
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .card-performance-check {
+    flex: 1 1 30%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card-tarif-degressif {
+    margin: 20px 30px;
+    border-radius: 6px;
+    padding: 20px 30px;
+    background-color: white;
+  }
+
+  .bs-wizard {margin-top: 40px;}
+
+  /*Form Wizard*/
+
+  .bs-wizard {
+    border-bottom: solid 1px #e0e0e0;
+    padding: 0 0 10px 0;
+    margin-top: 50px;
+  }
+
+  .bs-wizard > .bs-wizard-step {
+    padding: 0;
+    position: relative;
+    width: 15%;
+  }
+
+  .bs-wizard > .bs-wizard-step + .bs-wizard-step {}
+
+  .bs-wizard > .bs-wizard-step .bs-wizard-stepnum {
+    color: #595959;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .bs-wizard > .bs-wizard-step .bs-wizard-info {
+    color: #999;
+    font-size: 14px;
+  }
+
+  .bs-wizard > .bs-wizard-step > .bs-wizard-dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: #7ED321;
+    top: 52px;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+    border-radius: 50%;
+  }
+/*.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {
+  content: ' ';
+  width: 12px;
+  height: 12px;
+  background: #7ED321;
+  border-radius: 50px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  }*/
+
+  .bs-wizard > .bs-wizard-step > .progress {
+    position: relative;
+    border-radius: 0px;
+    height: 8px;
+    box-shadow: none;
+    margin: 20px 0;
+    background-color: #DCD3C7;
+  }
+
+  .bs-wizard > .bs-wizard-step > .progress > .progress-bar {
+    width:0px;
+    box-shadow: none;
+    background: #7ED321;
+  }
+
+  .bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {
+    width:100%;
+  }
+
+  .bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {
+    width:50%;
+  }
+
+  .bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {
+    width:0%;
+  }
+
+  .bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {
+    width: 100%;
+  }
+
+  .bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {
+    background-color: #DCD3C7;
+  }
+
+  .bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {
+    opacity: 0;
+  }
+
+  .bs-wizard > .bs-wizard-step:first-child  > .progress {
+    left: 50%;
+    width: 50%;
+  }
+
+  .bs-wizard > .bs-wizard-step:last-child  > .progress {
+    width: 50%;
+  }
+
+  .bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{
+    pointer-events: none;
+  }
+
+  .card-fonctionnalites {
+    margin: 20px 30px;
+    border-radius: 6px;
+    padding: 20px 30px;
+    background-color: white;
+  }
+
+  .card-fonctionnalites-features {
+    margin: auto auto;
+  }
+
+  .card-fonctionnalites-features-all {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card-fonctionnalites-features-title {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .card-fonctionnalites-features-desc {
+    font-weight: 300;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .card-fonctionnalites-features-image {
+    height: 75px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+  .card-fonctionnalites-features-image-sepa {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+  }
+
+  .wrapper-card-fonctionnalites-features-image {
+    height: 90px;
+  }
+
+  .card-paiement {
+    margin: 20px 30px;
+    border-radius: 6px;
+    padding: 20px 30px;
+    background-color: white;
+  }
+
+  .card-paiement-features {
+    margin: auto auto;
+    display: flex;
+    flex-direction: column
+  }
+
+  .card-paiement-features-all {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card-paiement-features-title {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .card-paiement-features-desc {
+    font-weight: 300;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .card-paiement-features-image {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+  .card-paiement-features-image-sepa {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+  }
+
+  .wrapper-card-paiement-features-image {
+    height: 90px;
+    flex: 0 0 80px;
+  }
+
+  .indication-tarifaire {
+    font-size: 18px;
+  }
+
+  .wrapper-text {
+    min-height: 200px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+
+  .question {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 24px;
+    margin-bottom: 60px;
+  }
+
+  .cta_offre_performance_wrapper {
+    margin: 0px auto;
+  }
+
+  .cta_offre_performance {
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+    min-height: 52px;
+    background-color: #FD8400;
+    padding: 20px 40px;
+    border-radius: 2px;
+    color: white;
+  }
+
+  .cta_offre_performance:visited {
+    color: white;
+  }
+
+  .cta_offre_performance:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 775px)
+{
+
+}
+
