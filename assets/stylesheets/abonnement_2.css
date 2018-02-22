@@ -1,0 +1,142 @@
+.header_abonnement {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  background: linear-gradient(45deg, #1684FF, #003166);
+  height: 460px;
+  padding: 100px 200px;
+}
+
+.header_abonnement_texte {
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.header_abonnement_texte_title-content {
+  font-size: 46px;
+}
+
+.header_abonnement_texte_sub_title {
+  font-size: 32px;
+}
+
+.header_abonnement_texte_texte {
+  font-size: 24px;
+}
+
+.wrapper_abonnements {
+  padding: 0px 40px;
+}
+
+.abonnements_offres_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.abonnements_offres_description_label {
+  flex: 0 0 40%;
+}
+
+.abonnements_offres_entrainement_label {
+  flex: 0 0 240px;
+  height: 80px;
+  background-color: #003166;
+  text-align: center;
+  line-height: 80px;
+  font-size: 22px;
+  color: white;
+  border-radius: 4px 4px 0px 0px;
+  position: relative;
+}
+
+.picto_offres {
+  position: absolute;
+  left: 55px;
+  bottom: 65px;
+}
+
+.abonnements_offres_performance_label {
+  flex: 0 0 240px;
+  height: 80px;
+  background-color: #FD8400;
+  text-align: center;
+  line-height: 80px;
+  font-size: 22px;
+  color: white;
+  border-radius: 4px 4px 0px 0px;
+  position: relative;
+}
+
+.abonnements_offres_2 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.abonnements_offres_description_collecte_texte {
+  padding: 20px 20px;
+  font-size: 18px;
+}
+ .abonnements_offres_description_collecte_texte > img {
+  width: 40px;
+ }
+
+.abonnements_offres_description_collecte {
+  flex: 0 0 40%;
+  background-color: #F6F6F6;
+  border-radius: 46px;
+  padding: 20px;
+}
+
+.abonnements_offres_entrainement_collecte {
+  flex: 0 0 240px;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+
+.abonnements_offres_performance_collecte {
+  flex: 0 0 240px;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+
+.abonnements_offres_3 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.abonnements_offres_description_collecte_details {
+  flex: 0 0 40%;
+  border-radius: 46px;
+  padding: 0px 20px;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 16px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+li {
+  line-height: 30px;
+}
+
+.fa-check {
+  color: #6EC7A5;
+  text-align: center;
+}
+
+.fa-times {
+ color: #E76976;
+ text-align: center;
+}
